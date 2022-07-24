@@ -6,82 +6,88 @@
     <title>Convention Centre</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/626a1141a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container mt-3 mb-3">
-              <a class="navbar-brand" href="#">Abacus Convention Center</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </li>
-                </ul>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container mt-3 mb-3">
+                  <a class="navbar-brand" href="#">Abacus Convention Center</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-end header-two" id="navbarNav">
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item header-two-one">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subscribe</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-          </nav>
+          </div>
+        </div>
     </header>
     <main>
         <!-- carousel part -->
         <div class="container-fluid">
             <div class="row">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="col-lg-12 col-md-12 col-12 header-one">
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-white " aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4" ></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="1000">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="text-white text-center">The perfect venue for your<br> next event</h2>
-                          <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-                          <button class="btn bg-white text-primary px-3 py-2 border border-0">Book Now</button>
+                        <div class="carousel-caption carousel-one text-content">
+                          <h2 class="text-white text-center">The perfect venue for</h2>
+                            <p class="text-white">Amet minim mollit non deserunt </p>
+                          <button class="btn bg-white text-primary px-3 py-2 border border-0 button-content">Book Now</button>
                         </div>
                       </div>
-                      <div class="carousel-item active" data-bs-interval="1000">
+                      <div class="carousel-item" data-bs-interval="1000">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="text-white text-center">The perfect venue for your<br> next event</h2>
-                          <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-                          <button class="btn bg-white text-primary px-3 py-2 border border-0">Book Now</button>
+                        <div class="carousel-caption carousel-one text-content">
+                          <h2 class="text-white text-center">The perfect venue for</h2>
+                            <p class="text-white">Amet minim mollit non deserunt </p>
+                          <button class="btn bg-white text-primary px-3 py-2 border border-0 button-content">Book Now</button>
                         </div>
                       </div>
-                      <div class="carousel-item active" data-bs-interval="1000">
+                      <div class="carousel-item" data-bs-interval="1000">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="text-white text-center">The perfect venue for your<br> next event</h2>
-                          <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-                          <button class="btn bg-white text-primary px-3 py-2 border border-0">Book Now</button>
+                        <div class="carousel-caption carousel-one text-content">
+                          <h2 class="text-white text-center">The perfect venue for</h2>
+                            <p class="text-white">Amet minim mollit non deserunt </p>
+                          <button class="btn bg-white text-primary px-3 py-2 border border-0 button-content">Book Now</button>
                         </div>
                       </div>
-                      <div class="carousel-item active" data-bs-interval="10000">
+                      <div class="carousel-item" data-bs-interval="1000">
                         <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="text-white text-center">The perfect venue for your<br> next event</h2>
-                          <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>dolor do amet sint. Velit officia consequat duis enim velit </p>
-                          <button class="btn bg-white text-primary px-3 py-2 border border-0">Book Now</button>
+                        <div class="carousel-caption carousel-one text-content">
+                          <h2 class="text-white text-center">The perfect venue for</h2>
+                            <p class="text-white">Amet minim mollit non deserunt </p>
+                          <button class="btn bg-white text-primary px-3 py-2 border border-0 button-content">Book Now</button>
                         </div>
                       </div>
-                     
-                     
                       
-                    </div>
+                  
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                       
                       <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
@@ -92,28 +98,59 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
+                </div>
             </div>
         </div>
         <!-- 2nd part -->
 
         <div class="card mb-3 container mt-5 border border-0">
-            <div class="row g-0">
-              <div class="col-md-4 col-lg-5">
-                <img src="images/wedding.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8 col-lg-7">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <div class="toast-container top-0 end-0 p-3">
+              <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-muted">just now</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  See? Just like this.
                 </div>
               </div>
+          
+              <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-muted">2 seconds ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Heads up, toasts will stack automatically
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="row g-0 second-content">
+              
+                <div class="col-md-4 col-lg-5 col-12">
+                  <img src="images/wedding.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-lg-7 col-12">
+                  <div class="card-body">
+                    <h5 class="card-title">Every moment is Precious </h5>
+                    <p class="card-text">TAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn bg-primary text-white">Explore our album <i class="fa-solid fa-arrow-right-long"> </i></button>
+                  </div>
+                </div>
+              
             </div>
           </div>
           <!-- our packeges -->
           <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-12 col-md-12 col-12">
                     <h2 class="text-center m-5">Our package</h2>
                 </div>
             </div>
@@ -121,7 +158,7 @@
           <div class="container">
             <div class="row">
                 
-                <div class="col p-5">
+                <div class="col-lg-3 col-md-6 col-12 p-5 text-center">
                     <h1><i class="fa-solid fa-dollar-sign"></i>300</h1>
                     <h3>Business fair</h3>
                     <p>For most businesses event<br> 
@@ -134,7 +171,7 @@
                     <p class="m-0"><i class="far fa-check-circle"></i> limited space access</p>
                     <button class="btn btn-light text-primary mt-4 ">Choose plan</button>
                 </div>
-                <div class="col p-5">
+                <div class="col-lg-3 col-md-6 col-12 p-5 text-center">
                     <h1><i class="fa-solid fa-dollar-sign"></i>300</h1>
                     <h3>Business fair</h3>
                     <p>For most businesses event<br> 
@@ -146,8 +183,8 @@
                     <p class="m-0"><i class="far fa-check-circle"></i> limited space access</p>
                     <button class="btn btn-light text-primary mt-4 ">Choose plan</button>
                 </div>
-                <div class="col bg-primary text-white ps-5 p-5 rounded-5 position-relative shadow-lg p-3 mb-5 rounded">
-                    <span class="position-absolute translate-middle badge rounded-pill bg-danger middle">
+                <div class="col-lg-3 col-md-6 col-12 text-center bg-primary text-white ps-5 p-5 rounded-5 position-relative shadow-lg p-3 mb-5 rounded">
+                    <span class="position-absolute start-0 top-0 translate-middle badge rounded-pill bg-danger middle-one">
                         Hot
                         <span class="visually-hidden">unread messages</span>
                       </span>
@@ -165,7 +202,7 @@
                         
                     </button>
                 </div>
-                <div class="col p-5">
+                <div class="col-lg-3 col-md-6 col-12 text-center p-5">
                     <h1><i class="fa-solid fa-dollar-sign"></i>300</h1>
                     <h3>Business fair</h3>
                     <p>For most businesses event<br> 
@@ -189,7 +226,7 @@
           </div>
           <div class="container">
             <div class="row ">
-              <div class="col-lg-4 text-center">
+              <div class="col-lg-4 col-md-6 col-12 text-center">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                   <p >Slate helps you see how <br>
                     many more days you need <br>
@@ -200,7 +237,7 @@
                     <p>Banker</p>
                 </div>
               </div>
-              <div class="col-lg-4 text-center ">
+              <div class="col-lg-4 col-md-6 col-12 text-center ">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                   <p >Slate helps you see how <br>
                     many more days you need <br>
@@ -211,7 +248,7 @@
                     <p>Banker</p>
                 </div>
               </div>
-              <div class="col-lg-4 text-center ">
+              <div class="col-lg-4 col-md-6 col-12 text-center ">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                   <p >Slate helps you see how <br>
                     many more days you need <br>
@@ -222,37 +259,20 @@
                     <p>Banker</p>
                 </div>
               </div>
-              <!-- <div class="col-lg-4 text-center shadow p-3 mb-5 bg-body rounded ">
-                <p >Slate helps you see how <br>
-                  many more days you need <br>
-                  to work to reach your financial<br> 
-                  goal for the month and year.</p>
-                  <img class="img-fluid rounded mx-auto d-block py-3" src="images/person 1.png" alt="">
-                  <p>Regina Miles</p>
-                  <p>Banker</p>
-              </div>
-              <div class="col-lg-4 text-center shadow p-3 mb-5 bg-body rounded">
-                <p >Slate helps you see how <br>
-                  many more days you need <br>
-                  to work to reach your financial<br> 
-                  goal for the month and year.</p>
-                  <img class="img-fluid rounded mx-auto d-block py-3" src="images/person 1.png" alt="">
-                  <p>Regina Miles</p>
-                  <p>Banker</p>
-              </div> -->
+              
             </div>          
           </div>
           <!-- Frequently Asked Questions -->
-          <div class="container">
+          <div class="container ">
             <div class="row">
                 <div class="col">
                     <h2 class="text-center m-5">Frequently Asked Questions</h2>
                 </div>
             </div>
           </div>
-          <div class="container">
+          <div class="container mb-5">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-12 col-12">
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -304,7 +324,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-12 col-12">
                 <img src="images/people.png" class="img-fluid" alt="">
               </div>
             </div>
@@ -313,20 +333,32 @@
     </main>
     <footer>
       <div class="container-fluid bg-dark p-5 text-white">
-        <div class="row ">
-          <div class="col-lg-4 mt-4">
-            <p>© 2020 bike. All rights reserved</p>
-          </div>
-          <div class="col text-end me-5">
-            <p>Get the App</p>
-            <img src="images/footer.jpg" class="img-fluid col-lg-2 " alt="">
+        <div class="row footer-content ">
+          
+            <div class="col-lg-4 col-md-6 col-12 mt-4 flex-column-reverse">
+              <p>© 2020 bike. All rights reserved</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-end me-5 flex-column-reverse">
+              <p>Get the App</p>
+              <img src="images/footer.jpg" class="img-fluid col-lg-2 " alt="">
+            
           </div>
           </div>
         </div>
-      </div>
+      
     </footer>
+
+
+    
 
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+      window.onload = (e) => {
+        let myToast = document.querySelector(".toast");
+        let bsToast = new bootstrap.Toast(myToast);
+        bsToast.show();
+      };
+    </script>
   </body>
 </html>
